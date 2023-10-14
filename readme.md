@@ -5,9 +5,7 @@
 
                  Welcome! 👋
                  
-![Alt text](./lesson/assets/javsript4.png)
-
-
+<img src="./img/javsript4.png" alt="Site em Telas" />
 ## Índice
 
 - Desafio
