@@ -10,17 +10,14 @@ var alturas = []
 // Implementar a saída de dados
 
 
-
-
-for (let altura = 1;  altura <= 10; altura++) {
+for (let altura = 1; altura <= 10; altura++) {
     alturas.push(parseFloat(prompt("Digite sua altura:")))
 
 }
-console.log(alturas)
-for (let index = 0; index< alturas.length; index++) {
-    const aluno = alturas[index];
 
-   const quantidadeDeAlturasMenores = alturas.filter(altura => altura < aluno ).length
- console.log(`aluno ${index} : maior que ${quantidadeDeAlturasMenores} aluno(s)`)   
+for (let index = 0; index < alturas.length; index++) {
+    const aluno = alturas[index];
+    const quantidadeDeAlturasMenores = alturas.filter(altura => altura < aluno).length
+    console.log(`aluno ${index} : maior que ${quantidadeDeAlturasMenores} aluno(s)`)
 }
 
